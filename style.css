@@ -2,3 +2,43 @@ body {
     background-image: url("assets/bg-image.png");
     background-size: cover;
 }
+
+.welcome-text{
+    margin-left: 1rem ;
+    margin-top: 2rem;
+    width:95%;
+}
+
+.big-text{
+    background: linear-gradient(0deg, rgba(126,196,207,1) 0%, rgba(203,197,234,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size:  6em;
+    padding: 0;
+    margin: 0;
+}
+
+.subtext{
+    font-size: 2em;
+}
+
+#welcome{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    margin: 0%;
+    padding: 0%;
+}
+
+.welcome-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 6em;
+    padding-left: 1em;
+}
+
+.buttons-main{
+    margin: 1em;
+}

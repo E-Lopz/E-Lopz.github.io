@@ -51,6 +51,42 @@ body {
     display: block;
 }
 
+#project-tab{
+    position: absolute;
+    left: 40vh;
+    width: 60%;
+    height: 10%;
+    margin-top: 8em;
+    border-left: 3px solid black;
+    border-bottom: none;
+    display: flex;
+    direction: row;
+    z-index:1;
+}
+
+.section{
+    background-color: #CBC5EA;
+    height: 100%;
+    width: 25%;
+    border: 3px solid black;
+    border-left: none;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#project-info{
+    background-color: #CBC5EA;
+    position: absolute;
+    left: 40vh;
+    width: 60%;
+    height: 60%;
+    margin-top: 13em;
+    border: 3px solid black;
+    
+    display: flex;
+    direction: row;
+}
+
 #education{
     background-image: url("assets/bg-image2.jpg");
     width: 100%;

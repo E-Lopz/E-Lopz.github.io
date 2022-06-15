@@ -4,19 +4,29 @@
             "title":"title1",
             "img":"assets/bg-image2.jpg",
             "lan":"human",
-            "description":"blablablbabla"
+            "description":"blablablbabla",
+            "rgb":"203, 197, 234"
         },
         {
             "title":"title2",
             "img":"assets/bg-image2.jpg",
             "lan":"human",
-            "description":"blablablbabla"
+            "description":"blablablbabla",
+            "rgb":"173, 164, 219"
         },
         {
             "title":"title3",
             "img":"assets/bg-image2.jpg",
             "lan":"human",
-            "description":"blablablbabla"
+            "description":"blablablbabla",
+            "rgb":"153, 143, 201"
+        },
+        {
+            "title":"title4",
+            "img":"assets/bg-image2.jpg",
+            "lan":"human",
+            "description":"blablablbabla",
+            "rgb":"138, 128, 186"
         }
     ]
 }

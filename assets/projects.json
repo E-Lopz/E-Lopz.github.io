@@ -1,31 +1,31 @@
 {
     "projects":[
         {
-            "title":"title1",
-            "img":"assets/bg-image2.jpg",
+            "title":"Title1",
+            "img":"assets/perro.png",
             "lan":"human",
-            "description":"blablablbabla",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis augue at risus interdum hendrerit. Duis posuere nulla quis sapien malesuada, eu tristique massa sollicitudin. Nulla facilisi. Sed a auctor libero, id lacinia urna. Praesent fringilla, tellus nec maximus lobortis, quam ex mattis risus, lacinia posuere sem tellus a nibh. In sem risus, porttitor vel vulputate eget, euismod quis leo. Pellentesque ut libero dui. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur eleifend tristique massa, at blandit orci efficitur vitae. Morbi euismod laoreet orci, vitae tincidunt enim scelerisque id. Donec et accumsan nisl, vel vestibulum ex. Duis ut sodales risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam quis tellus efficitur, efficitur nisl quis, consectetur tellus. Phasellus dignissim, metus nec efficitur cursus, urna risus fermentum massa, a dapibus quam turpis eu sapien. Duis sollicitudin non nibh ac iaculis. In pharetra in erat vel ornare. Praesent congue luctus vulputate. Nulla eu efficitur tortor. Donec maximus magna vitae quam mollis, convallis dignissim est pharetra. Nullam pellentesque, nunc in interdum varius, enim dui feugiat eros, sit amet fermentum nulla sapien sit amet ex. Nunc ac viverra eros. Vivamus laoreet tristique nibh non dapibus. Cras malesuada, tellus non aliquet sodales, enim lectus luctus est, id blandit nisi nisi in nisi. Pellentesque a arcu varius justo convallis aliquet in sed ipsum. In hac habitasse platea dictumst.",
             "rgb":"203, 197, 234"
         },
         {
-            "title":"title2",
+            "title":"Title2",
             "img":"assets/bg-image2.jpg",
             "lan":"human",
-            "description":"blablablbabla",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis augue at risus interdum hendrerit. Duis posuere nulla quis sapien malesuada, eu tristique massa sollicitudin. Nulla facilisi. Sed a auctor libero, id lacinia urna. Praesent fringilla, tellus nec maximus lobortis, quam ex mattis risus, lacinia posuere sem tellus a nibh. In sem risus, porttitor vel vulputate eget, euismod quis leo. Pellentesque ut libero dui. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur eleifend tristique massa, at blandit orci efficitur vitae. Morbi euismod laoreet orci, vitae tincidunt enim scelerisque id. Donec et accumsan nisl, vel vestibulum ex. Duis ut sodales risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam quis tellus efficitur, efficitur nisl quis, consectetur tellus. Phasellus dignissim, metus nec efficitur cursus, urna risus fermentum massa, a dapibus quam turpis eu sapien. Duis sollicitudin non nibh ac iaculis. In pharetra in erat vel ornare. Praesent congue luctus vulputate. Nulla eu efficitur tortor. Donec maximus magna vitae quam mollis, convallis dignissim est pharetra. Nullam pellentesque, nunc in interdum varius, enim dui feugiat eros, sit amet fermentum nulla sapien sit amet ex. Nunc ac viverra eros. Vivamus laoreet tristique nibh non dapibus. Cras malesuada, tellus non aliquet sodales, enim lectus luctus est, id blandit nisi nisi in nisi. Pellentesque a arcu varius justo convallis aliquet in sed ipsum. In hac habitasse platea dictumst.",
             "rgb":"173, 164, 219"
         },
         {
-            "title":"title3",
+            "title":"Title3",
             "img":"assets/bg-image2.jpg",
             "lan":"human",
-            "description":"blablablbabla",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis augue at risus interdum hendrerit. Duis posuere nulla quis sapien malesuada, eu tristique massa sollicitudin. Nulla facilisi. Sed a auctor libero, id lacinia urna. Praesent fringilla, tellus nec maximus lobortis, quam ex mattis risus, lacinia posuere sem tellus a nibh. In sem risus, porttitor vel vulputate eget, euismod quis leo. Pellentesque ut libero dui. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur eleifend tristique massa, at blandit orci efficitur vitae. Morbi euismod laoreet orci, vitae tincidunt enim scelerisque id. Donec et accumsan nisl, vel vestibulum ex. Duis ut sodales risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam quis tellus efficitur, efficitur nisl quis, consectetur tellus. Phasellus dignissim, metus nec efficitur cursus, urna risus fermentum massa, a dapibus quam turpis eu sapien. Duis sollicitudin non nibh ac iaculis. In pharetra in erat vel ornare. Praesent congue luctus vulputate. Nulla eu efficitur tortor. Donec maximus magna vitae quam mollis, convallis dignissim est pharetra. Nullam pellentesque, nunc in interdum varius, enim dui feugiat eros, sit amet fermentum nulla sapien sit amet ex. Nunc ac viverra eros. Vivamus laoreet tristique nibh non dapibus. Cras malesuada, tellus non aliquet sodales, enim lectus luctus est, id blandit nisi nisi in nisi. Pellentesque a arcu varius justo convallis aliquet in sed ipsum. In hac habitasse platea dictumst.",
             "rgb":"153, 143, 201"
         },
         {
-            "title":"title4",
+            "title":"Title4",
             "img":"assets/bg-image2.jpg",
             "lan":"human",
-            "description":"blablablbabla",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis augue at risus interdum hendrerit. Duis posuere nulla quis sapien malesuada, eu tristique massa sollicitudin. Nulla facilisi. Sed a auctor libero, id lacinia urna. Praesent fringilla, tellus nec maximus lobortis, quam ex mattis risus, lacinia posuere sem tellus a nibh. In sem risus, porttitor vel vulputate eget, euismod quis leo. Pellentesque ut libero dui. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur eleifend tristique massa, at blandit orci efficitur vitae. Morbi euismod laoreet orci, vitae tincidunt enim scelerisque id. Donec et accumsan nisl, vel vestibulum ex. Duis ut sodales risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam quis tellus efficitur, efficitur nisl quis, consectetur tellus. Phasellus dignissim, metus nec efficitur cursus, urna risus fermentum massa, a dapibus quam turpis eu sapien. Duis sollicitudin non nibh ac iaculis. In pharetra in erat vel ornare. Praesent congue luctus vulputate. Nulla eu efficitur tortor. Donec maximus magna vitae quam mollis, convallis dignissim est pharetra. Nullam pellentesque, nunc in interdum varius, enim dui feugiat eros, sit amet fermentum nulla sapien sit amet ex. Nunc ac viverra eros. Vivamus laoreet tristique nibh non dapibus. Cras malesuada, tellus non aliquet sodales, enim lectus luctus est, id blandit nisi nisi in nisi. Pellentesque a arcu varius justo convallis aliquet in sed ipsum. In hac habitasse platea dictumst.",
             "rgb":"138, 128, 186"
         }
     ]

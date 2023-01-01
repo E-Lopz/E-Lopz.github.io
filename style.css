@@ -129,6 +129,7 @@ main{
 }
 .first{
   display: block;
+  margin-bottom: 2em;
 }
 #interests{
   margin-top: 7em;

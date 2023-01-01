@@ -1,141 +1,150 @@
 body{
-    background-color: #ebedf0;
-    color: black;
-    font-family: 'Roboto', sans-serif; /* Change the font to Roboto */
+  background-color: #ebedf0;
+  color: black;
+  font-family: 'Roboto', sans-serif; /* Change the font to Roboto */
 
 }
 nav{
-  position: fixed;
-  top: 0 ;
+position: fixed;
+top: 0 ;
 }
 main{
-    background-color:   #fdfdfe;
+  background-color:   #fdfdfe;
 }
 h1{
-    color: #094293;
-    font-family: 'Roboto', sans-serif; /* Change the font to Roboto */
+  color: #094293;
+  font-family: 'Roboto', sans-serif; /* Change the font to Roboto */
 }
 .about_me{
-    margin: auto; /* Center the element horizontally */
-    text-align: center; /* Center the content inside the element */
-    width: 70%;
+  margin: auto; /* Center the element horizontally */
+  text-align: center; /* Center the content inside the element */
+  width: 70%;
 }
 
 .first {
-    height: 100vh; /* Set the height to 100% of the viewport */
-    width: 100vw; /* Set the width to 100% of the viewport */
-  }
+  height: 100vh; /* Set the height to 100% of the viewport */
+  width: 100vw; /* Set the width to 100% of the viewport */
+  display: block;
+}
 
 .wrapper {
-    height: 20vh;
-    /*This part is important for centering*/
-    display: grid;
-    place-items: center;
-  }
-  
-  .typing-demo {
-    width: 26ch;
-    animation: typing 2s steps(26), blink .5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    font-family: monospace;
-    font-size: 2em;
-  }
-  
-  @keyframes typing {
-    from {
-      width: 0
-    }
-  }
-      
-  @keyframes blink {
-    50% {
-      border-color: transparent
-    }
-  }
+  height: 20vh;
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+}
 
-  p.me_text {
-    font-family: 'Roboto', sans-serif; /* Change the font to Roboto */
-    line-height: 1.5; /* Increase the space between lines */
-    font-size: 1.3em;
-  }
+.typing-demo {
+  width: 26ch;
+  animation: typing 2s steps(26), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
 
-  .links {
-    color: #5564eb; /* Change the color of the text */
-    text-decoration: none; /* Remove the underline from the link */
+@keyframes typing {
+  from {
+    width: 0
   }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
 
-  div.welcome-buttons {
-    padding-top: 1.5em;
-    display: flex; /* Set the element to display as a flex container */
-    justify-content: center; /* Center the element horizontally */
-    text-align: center; /* Center the content inside the element */
-  }
-  
-  .txt_img {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 2em;
-  }
+p.me_text {
+  font-family: 'Roboto', sans-serif; /* Change the font to Roboto */
+  line-height: 1.5; /* Increase the space between lines */
+  font-size: 1.3em;
+}
 
-  #interests{
-    padding-left: 1em;
-    padding-right: 1.5em;
-    font-size: 1.3em;
-  }
+.links {
+  color: #5564eb; /* Change the color of the text */
+  text-decoration: none; /* Remove the underline from the link */
+}
 
-  .links:hover{
-    color: darken(#5564eb, 60%);
-  }
+div.welcome-buttons {
+  padding-top: 1.5em;
+  display: flex; /* Set the element to display as a flex container */
+  justify-content: center; /* Center the element horizontally */
+  text-align: center; /* Center the content inside the element */
+}
 
-  .links.apple:hover{
-    color: #fc3c428b  !important;
-  }
+.txt_img {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2em;
+}
 
-  .links.spotify:hover{
-    color:#23c75ca3!important;
-  }
+#interests{
+  padding-left: 1em;
+  padding-right: 1.5em;
+  font-size: 1.3em;
+}
 
-  .footer {
-    background: #ebedf0;
-    color: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5rem 1rem;
-    padding-bottom: 2em;
-    padding-top: 1em;
-  }
+.links:hover{
+  color: darken(#5564eb, 60%);
+}
 
-  .footer_links{
-    display: flex;
-    flex-direction: column;
-  }
-  .footer_links a{
-    text-decoration: none;
-    color: darkslategray;
-  }
+.links.apple:hover{
+  color: #fc3c428b  !important;
+}
 
-  .footer_links a:hover{
-    color: darkgray;
-  }
+.links.spotify:hover{
+  color:#23c75ca3!important;
+}
+
+.footer {
+  background: #ebedf0;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  padding-bottom: 2em;
+  padding-top: 1em;
+}
+
+.footer_links{
+  display: flex;
+  flex-direction: column;
+}
+.footer_links a{
+  text-decoration: none;
+  color: darkslategray;
+}
+
+.footer_links a:hover{
+  color: darkgray;
+}
 
 @media (max-width: 767px) {
-  #interests{
-    padding-top: 2em;
-  }
-  .txt_img {
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .txt_img img{
-    justify-content: center;
-    flex-grow: 1;
-    flex-shrink: 0;
-    width: 20vh;
-    height: 20vh;
-  }
+main{
+  display: flex;
+  flex-direction: column;
+}
+.first{
+  display: block;
+}
+#interests{
+  margin-top: 7em;
+  display: block;
+}
+.txt_img {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.txt_img img{
+  justify-content: center;
+  flex-grow: 1;
+  flex-shrink: 0;
+  width: 20vh;
+  height: 20vh;
+}
 }

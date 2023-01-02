@@ -124,9 +124,10 @@ div.welcome-buttons {
 }
 
 @media (max-width: 767px) {
-main{
+.content{
   display: grid;
   grid-template-columns: 1fr;
+  grid-template-rows: auto;
 }
 
 .typing-demo{
@@ -134,14 +135,17 @@ main{
 }
 
 .first{
-  margin-bottom: 8em;
+  margin-bottom: 14em;
   display: block;
   font-size: 1em;
+  height: 110vh;
+  grid-row: 1;
 }
 #interests{
-  margin-top: 9em;
+  margin-top: 14em;
   display: block;
   font-size: 1em;
+  grid-row: 2;
 }
 .txt_img {
   display: block;
@@ -152,9 +156,11 @@ main{
 }
 .txt_img img{
   justify-content: center;
-  flex-grow: 1;
-  flex-shrink: 0;
   width: 20vh;
   height: 20vh;
+}
+.txt_img p{
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 }

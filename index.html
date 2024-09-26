@@ -1,104 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Emiliano Lopez</title>
+
+    <!-- Styles -->
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Scripts -->
     <script src="https://kit.fontawesome.com/d80a78d4d0.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <title>Emiliano Lopez</title>
-    <script>script.js</script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 </head>
+
 <body>
-    <header>
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light navbar-fixed-top" style="background-color: #ebedf0;">
-            <a class="navbar-brand" href="#"><i class="fa-solid fa-code fa-2xl text-dark p-1" alt="Code icon"></i></a>
-            <div class="collapse navbar-collapse" id="navbarScroll">
-              <!-- Add the justify-content-end class to the ul element -->
-              <ul class="navbar-nav justify-content-end">
-                <li class="nav-item">
-                  <a class="nav-link text-dark"  href="#projects">Projects</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-dark" href="#interests">Interests</a>
-                </li>
-              </ul>
-            </div>
-            <span class="navbar-text p-2">
-                <i class="fa-solid fa-leaf fa-2xl text-grey" alt="leaf icon"></i>
-                Emiliano Lopez
-              </span>
-          </nav>    
-    </header>
-    <main>
-      <div class="content">
-      <div class="first">
-        <!-- Add main content here -->
-        <div class="wrapper">
-          <div class="typing-demo">
-            Hello there, I'm <span style="color: blue;">Emiliano</span>.
-          </div>
-      </div>
-      <div class="about_me">
-          <p class="me_text">I'm currently studying for my Bachelors in Computer Science and Mathematics at the University of Montreal. I'm originally from Mexico and I am expected to graduate in December 2023. Some of my <a class="links" href="#interests"><span>interests</span></a> are watching movies and listening to music. I'm always looking for new challenges and opportunities to learn and grow. I am passionate about using my skills and knowledge to make a positive impact in the world, and I hope to use my education to pursue a career in machine learning.</p>
-          <h4 class="thanks">Thank you for visiting my website! <br> I hope you enjoy your time here and find something interesting.</h1>
+    <!-- Navbar -->
+    <nav class="sticky-top">
+        <a id="about-link" href="#about">{General Info}</a>
+        <span>Work in Progress</span>
+        <!-- <a id="contact-link" href="#contact">{Contact}</a> -->
+        <span>Confused Human @ World</span>
+        <span>Montreal, Canada</span>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="first">
+        <div class="p-box">
+            <p>
+              Emiliano Lopez Saavedra is a Mexican graduate of the Université de Montréal, with great interest in Machine Learning, Mathematics, Data Science, and their applications in solving real-world problems. With a focus on innovation and ethical AI, Emiliano is committed to contributing to advancements that benefit society as a whole. While he’s trying his best to avoid sounding selfish by writing in third person.  </p>
         </div>
-        <div class="welcome-buttons">
-          <a class="btn btn-lg text-light buttons-main" target="_blank" href="https://github.com/E-Lopz" role="button" style="background-color: #5564eb; margin: 2em;"><i class="fa-brands fa-github-alt"></i> My Github  </a>
-          <a class="btn btn-lg text-light buttons-main" target="_blank" href="resume.pdf" role="button" style="background-color: #5564eb; margin: 2em;"><i class="fa-solid fa-download   "></i> View CV</a>
-      </div>
+        <h1>EMILIANO LÓPEZ</h1>
     </div>
-    <div id="projects">
-      <h1>Some of my projects</h1>
 
-      <h3><a class="links" href="https://climate-model-downscaling.web.app/">Downscalling of climate models<i class="fa-solid fa-link"></i></a></h3>
-      <p>
-        In collaboration with a dedicated team of five, we embarked on a five-month project exploring climate model downscaling. During this endeavor, we sought guidance from researchers at MILA. Integrating geological and topological data into the downscaling process, we utilized UNets and successfully adapted ERA5 data to enhance our dataset. By integrating geological and topological data into climate model downscaling, we aimed to enhance the precision and reliability of our models. The incorporation of UNets and the adaptation of ERA5 data further contributed to refining our dataset. The importance of this lies in the potential to better understand and predict localized climate patterns, aiding in more accurate climate projections and informed decision-making. This project underscores the practical applications of downscaling methodologies in contributing to the broader understanding of climate science and its implications for our world.</p>
+    <!-- Particle Background -->
+    <div id="particles-js" class="node-pool">
+        <p></p>
+    </div>
 
-        <h3><a class="links" href="STT3795_Projet.pdf">Sentiment Analysis<i class="fa-solid fa-link"></i></a></h3>
-      <p>The inherent complexity of natural language processing has spurred innovation in data preprocessing and textual data modeling techniques. Two primary approaches to text classification have emerged: rule-based approaches and machine learning-based approaches. Machine learning techniques such as logistic regression, recurrent neural networks, and deep neural networks have demonstrated strong performances in various text classification problems.
+    <!-- About Section -->
+    <div id="about" class="section hidden">
+        <h1>A Little more about me</h1>
+        <p>
+          I completed my bachelor's degree in Mathematics and Computer Science, which provided me with a strong foundation in both fields. The program offered a great mix of computer science and math/statistics courses, allowing me to develop a well-rounded skill set. Some of the courses I found particularly fascinating include Biostatistics, Theoretical Foundations of Data Science, and Quantum Computation, all of which deepened my understanding of complex data systems and computational models. <br> <br>
 
-        This study compares the performances of different machine learning and deep learning models for text classification. Evaluated models include logistic regression, multilayer perceptron, convolutional-recurrent neural networks (CNN-RNN), and an ensemble method. The focus is on exploring various modeling techniques and using ensemble methods to enhance the performance and robustness of text sentiment classification models.
+          With the recent explosion of AI's public use, it has become well known that a single ChatGPT query consumes at least 10 times more energy than a typical web search engine query. This highlights a growing concern about the energy consumption of AI models. I'm deeply interested in tackling this issue by exploring ways to make models more efficient and reducing their environmental impact. Improving the energy efficiency of AI systems is one of the key challenges I am eager to address. <br> <br> 
         
-        In summary, the project aims to explore NLP text processing methods, apply them, and utilize concepts learned in the course with multiple machine (and deep) learning models, ultimately comparing the results obtained.        
+          Outside of my core interests, I enjoy testing new technologies and exploring different ways to solve problems. I’m also always open to trying something new—whether it's learning a new programming language or picking up a different sport for fun.
         </p>
+        <div class="about-box">
+          <div class="text">
+            <!--<p id="quote">frase mamadora</p>-->
 
-      <h3>Country Data Mining</a></h3>
-      <p>In this project, we're tasked with collecting and cleaning both numerical and categorical data related to countries worldwide. The data, sourced from several tables on the internet, undergoes a thorough cleaning process, including the discretization of all features (columns). We employ data mining techniques to uncover patterns, ensure data accuracy through cleansing, and use visualization methods to present a clear picture of global data. Additionally, strategic feature selection is applied to focus on the most relevant variables. The goal is to provide a comprehensive and well-processed dataset for in-depth analysis and insights into global country statistics.</p>
-      <br>
-      
+            <div class="contact-box">
+              <p>Contact Me</p>
+              <p>Drop me a message at <br><a href="mailto:emiliano.lopez2404@gmail.com">emiliano.lopez2404@gmail.com</a></p>
+              
+              <p><a target="_blank" href="https://www.linkedin.com/in/francisco-emiliano-lopez-saavedra-b333a8221/">LinkedIn</a>|<a target="_blank" href="https://github.com/E-Lopz">Github</a></p>
+            </div>
+
+            <div class="identifier">
+              <span> Recent CS/Maths graduate @ Life</span>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="section hidden">
+        <h2>Contact Us</h2>
+        <p>This is the contact section. Feel free to reach out!</p>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects">
+      <H1>Some of my projects</H1>
+       
     </div>
     
-
-    <div id="interests">
-      <h1>My interests</h1>
-      <br>
-      <h3>Scientific research and interests</h3>
-      <div class="txt_img">
-        <p>I have a growing interest in artificial intelligence applications designed for the greater good of our planet. Exploring and developing machine learning solutions that address societal challenges, promote sustainability, and contribute to positive social impact fascinates me. I aspire to contribute to the field of AI for Good, dedicated to harnessing the capabilities of AI to create meaningful change and advance the well-being of our global community."
-
-          "In addition to my developing interest in AI for Good, I am intrigued by the transformative potential of quantum computing. The unique computational power offered by quantum systems presents an exciting frontier for solving complex problems exponentially faster than classical approaches. I am keen on exploring the intersection of quantum computation and machine learning, aiming to unlock new possibilities and contribute to advancements that transcend the limitations of classical computing. I am excited about the prospect of leveraging quantum computing to tackle pressing challenges and drive innovation in the field of artificial intelligence.</p>
-      </div>
-      <h3>Music</h3>
-      <div class="txt_img">
-        <p> <br>   I enjoy listening and exploring different genres and artists. Some of my favorite genres at the moment are <br> latin rock, indie music, and R&B. Currently, my favorite artist is the Argentinian songwriter Gustavo Cerati. <br> I really like the way he tells stories through his lyrics. I use both <a class="links apple" target="_blank" style="color: #fc3c44;" href="https://music.apple.com/profile/SadBopz">Apple Music</a> and <a style="color: #1DB954;" target="_blank" class="links spotify" href="https://open.spotify.com/user/emi240?si=a39e932b7f164810">Spotify</a> to discover new music <br> and keep up with my favorite artists. <br> <br> Feel free to follow me and share any new music that you think I might enjoy.</p>
-        <img src="bocanada.jpeg" alt="bocanada by Gustavo Cerati" width="25%" height="25%" style="border-radius: 8%;">
-      </div>
-      <h3>Movies</h3>
-      <div class="txt_img">
-        <p> Some of my favorite directors are Guillermo del Toro, Sofia Coppola, and Charlie Kaufman. My all-time favorite film is Paddington 2 I just love that little peruvian bear that has taught me so much about life. If you're interested in seeing my opinions about films, you can follow me on <a class="links" href="https://letterboxd.com/bops/">Letterboxd</a> where I share my thoughts about the movies I watch. I always enjoy discovering new films and directors.</p>
-        <img src="Paddington-2.jpeg" alt="Paddington the bear" width="25%" height="30%" style="border-radius: 8%;">
-      </div>
-    </div>
-    </main>
-    <footer class="footer">
-      <div class="footer_links">
-      <a href="mailto:emiliano.lopez2404@gmail.com" >Contact Me</a>
-      <a href="https://linktr.ee/e_lopez">My Socials</a>
-    </div>
-      <span>Have a good one :)</span>
+    <!-- Footer -->
+    <footer>
+        <div class="socials">
+            <a target="_blank" href="https://www.linkedin.com/in/francisco-emiliano-lopez-saavedra-b333a8221/">LinkedIn</a>
+            <a target="_blank" href="https://github.com/E-Lopz">Github</a>
+            <a target="_blank" href="https://letterboxd.com/bops/">Letterboxd</a>
+        </div>
+        <div class="extras">
+            <a href="mailto:emiliano.lopez2404@gmail.com">emiliano.lopez2404@gmail.com</a>
+            <span>currently in Montreal, QC</span>
+            <a target="_blank" href="LopezFranciso_CV_2024.pdf">My CV</a>
+        </div>
     </footer>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
 </body>
+
 </html>

@@ -1,32 +1,42 @@
-{
-    "projects":[
-        {
-            "title":"Title1",
-            "img":"assets/perro.png",
-            "lan":"human",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis augue at risus interdum hendrerit. Duis posuere nulla quis sapien malesuada, eu tristique massa sollicitudin. Nulla facilisi. Sed a auctor libero, id lacinia urna. Praesent fringilla, tellus nec maximus lobortis, quam ex mattis risus, lacinia posuere sem tellus a nibh. In sem risus, porttitor vel vulputate eget, euismod quis leo. Pellentesque ut libero dui. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur eleifend tristique massa, at blandit orci efficitur vitae. Morbi euismod laoreet orci, vitae tincidunt enim scelerisque id. Donec et accumsan nisl, vel vestibulum ex. Duis ut sodales risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam quis tellus efficitur, efficitur nisl quis, consectetur tellus. Phasellus dignissim, metus nec efficitur cursus, urna risus fermentum massa, a dapibus quam turpis eu sapien. Duis sollicitudin non nibh ac iaculis. In pharetra in erat vel ornare. Praesent congue luctus vulputate. Nulla eu efficitur tortor. Donec maximus magna vitae quam mollis, convallis dignissim est pharetra. Nullam pellentesque, nunc in interdum varius, enim dui feugiat eros, sit amet fermentum nulla sapien sit amet ex. Nunc ac viverra eros. Vivamus laoreet tristique nibh non dapibus. Cras malesuada, tellus non aliquet sodales, enim lectus luctus est, id blandit nisi nisi in nisi. Pellentesque a arcu varius justo convallis aliquet in sed ipsum. In hac habitasse platea dictumst.",
-            "rgb":"203, 197, 234"
-        },
-        {
-            "title":"Title2",
-            "img":"assets/bg-image2.jpg",
-            "lan":"human",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis augue at risus interdum hendrerit. Duis posuere nulla quis sapien malesuada, eu tristique massa sollicitudin. Nulla facilisi. Sed a auctor libero, id lacinia urna. Praesent fringilla, tellus nec maximus lobortis, quam ex mattis risus, lacinia posuere sem tellus a nibh. In sem risus, porttitor vel vulputate eget, euismod quis leo. Pellentesque ut libero dui. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur eleifend tristique massa, at blandit orci efficitur vitae. Morbi euismod laoreet orci, vitae tincidunt enim scelerisque id. Donec et accumsan nisl, vel vestibulum ex. Duis ut sodales risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam quis tellus efficitur, efficitur nisl quis, consectetur tellus. Phasellus dignissim, metus nec efficitur cursus, urna risus fermentum massa, a dapibus quam turpis eu sapien. Duis sollicitudin non nibh ac iaculis. In pharetra in erat vel ornare. Praesent congue luctus vulputate. Nulla eu efficitur tortor. Donec maximus magna vitae quam mollis, convallis dignissim est pharetra. Nullam pellentesque, nunc in interdum varius, enim dui feugiat eros, sit amet fermentum nulla sapien sit amet ex. Nunc ac viverra eros. Vivamus laoreet tristique nibh non dapibus. Cras malesuada, tellus non aliquet sodales, enim lectus luctus est, id blandit nisi nisi in nisi. Pellentesque a arcu varius justo convallis aliquet in sed ipsum. In hac habitasse platea dictumst.",
-            "rgb":"173, 164, 219"
-        },
-        {
-            "title":"Title3",
-            "img":"assets/bg-image2.jpg",
-            "lan":"human",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis augue at risus interdum hendrerit. Duis posuere nulla quis sapien malesuada, eu tristique massa sollicitudin. Nulla facilisi. Sed a auctor libero, id lacinia urna. Praesent fringilla, tellus nec maximus lobortis, quam ex mattis risus, lacinia posuere sem tellus a nibh. In sem risus, porttitor vel vulputate eget, euismod quis leo. Pellentesque ut libero dui. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur eleifend tristique massa, at blandit orci efficitur vitae. Morbi euismod laoreet orci, vitae tincidunt enim scelerisque id. Donec et accumsan nisl, vel vestibulum ex. Duis ut sodales risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam quis tellus efficitur, efficitur nisl quis, consectetur tellus. Phasellus dignissim, metus nec efficitur cursus, urna risus fermentum massa, a dapibus quam turpis eu sapien. Duis sollicitudin non nibh ac iaculis. In pharetra in erat vel ornare. Praesent congue luctus vulputate. Nulla eu efficitur tortor. Donec maximus magna vitae quam mollis, convallis dignissim est pharetra. Nullam pellentesque, nunc in interdum varius, enim dui feugiat eros, sit amet fermentum nulla sapien sit amet ex. Nunc ac viverra eros. Vivamus laoreet tristique nibh non dapibus. Cras malesuada, tellus non aliquet sodales, enim lectus luctus est, id blandit nisi nisi in nisi. Pellentesque a arcu varius justo convallis aliquet in sed ipsum. In hac habitasse platea dictumst.",
-            "rgb":"153, 143, 201"
-        },
-        {
-            "title":"Title4",
-            "img":"assets/bg-image2.jpg",
-            "lan":"human",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis augue at risus interdum hendrerit. Duis posuere nulla quis sapien malesuada, eu tristique massa sollicitudin. Nulla facilisi. Sed a auctor libero, id lacinia urna. Praesent fringilla, tellus nec maximus lobortis, quam ex mattis risus, lacinia posuere sem tellus a nibh. In sem risus, porttitor vel vulputate eget, euismod quis leo. Pellentesque ut libero dui. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur eleifend tristique massa, at blandit orci efficitur vitae. Morbi euismod laoreet orci, vitae tincidunt enim scelerisque id. Donec et accumsan nisl, vel vestibulum ex. Duis ut sodales risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam quis tellus efficitur, efficitur nisl quis, consectetur tellus. Phasellus dignissim, metus nec efficitur cursus, urna risus fermentum massa, a dapibus quam turpis eu sapien. Duis sollicitudin non nibh ac iaculis. In pharetra in erat vel ornare. Praesent congue luctus vulputate. Nulla eu efficitur tortor. Donec maximus magna vitae quam mollis, convallis dignissim est pharetra. Nullam pellentesque, nunc in interdum varius, enim dui feugiat eros, sit amet fermentum nulla sapien sit amet ex. Nunc ac viverra eros. Vivamus laoreet tristique nibh non dapibus. Cras malesuada, tellus non aliquet sodales, enim lectus luctus est, id blandit nisi nisi in nisi. Pellentesque a arcu varius justo convallis aliquet in sed ipsum. In hac habitasse platea dictumst.",
-            "rgb":"138, 128, 186"
-        }
-    ]
-}
+[
+    {
+        "title": "AI-Enhanced Climate Modeling",
+        "technologies": ["Python", "TensorFlow", "ResNet", "U-Net"],
+        "year": "2023",
+        "link": "assets/Downscalling_climate_models.pdf",
+        "link-text": "{ Project Paper }",
+        "description": "Used advanced AI techniques to improve climate modeling at finer geographic scales, using machine learning models to augment large-scale simulations with higher-resolution datasets. The project focused on enhancing performance for regional and community decision-making in areas like agriculture and event planning.",
+        "collaborators": ["Santiago Gomez", "Diego Gonzalez", "Jeremy Qin", "Emulie Chor"],
+        "image": ""
+    },
+    {
+        "title": "Maternal Health Biostatistics Analysis",
+        "technologies": ["R", "Biostatistics", "Data Mining", "Model Selection"],
+        "year": "2023",
+        "link": "https://example.com/maternal-health-analysis",
+        "link-text": "{ Project Paper }",
+        "description": "Conducted a comprehensive analysis of maternal factors and their relationship to low-birth-weight infant outcomes. This project involved the evaluation of predictive models, hypothesis testing, and model selection techniques to derive meaningful conclusions with statistical and practical relevance.",
+        "collaborators": ["Jeremy Qin", "Edouard Cayouette"],
+        "image": ""
+    },
+    {
+        "title": "Staff Scheduling Optimization",
+        "technologies": ["Python", "Google OR-Tools"],
+        "year": "2024",
+        "link": "",
+        "link-text": "in progress",
+        "description": "Created a scheduling solution for optimizing staff assignments in a local store, taking into account shift constraints and fairness. Implemented the solution using Google OR-Tools for constraint programming.",
+        "collaborators": [],
+        "image": ""
+    },
+    {
+        "title": "Website Development with Responsive Navigation",
+        "technologies": ["HTML", "CSS", "JavaScript", "React"],
+        "year": "2024",
+        "link": "https://e-lopz.github.io/",
+        "link-text": "{ This website }",
+        "description": "Designed and developed a fully responsive website featuring a fixed and sticky navigation bar, improving user experience by ensuring seamless scrolling while maintaining visibility of key navigational elements. I enjoy building websites for fun and also take on freelance projects when time allows.",
+        "collaborators": [],
+        "image": ""
+    }
+]

@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    contactLink.addEventListener('click', function(event) {
+    /* contactLink.addEventListener('click', function(event) {
         event.preventDefault(); // Prevent default anchor behavior
         console.log("click"); // Log click for debugging
     
@@ -217,6 +217,7 @@ document.addEventListener('DOMContentLoaded', function() {
             isContactVisible = false; // Mark that the section is now hidden
         }
     });
+    */
 
     // Function to update the text content
     function animateTextChange(element, newText) {

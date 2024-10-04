@@ -134,7 +134,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             aboutLink.style.color = "white";
 
-            navbar.style.backgroundColor = "rgb(250,75,29)";
+            navbar.style.backgroundColor = "rgb(62,95,233)";
             // Hide the rest of the navbar items
             otherNavItems.forEach(item => {
                 if (item !== aboutLink) {
@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             aboutLink.style.color = "black";
 
-            navbar.style.backgroundColor = "white";
+            navbar.style.backgroundColor = "rgb(251,251,241)";
 
             // Show the rest of the navbar items again
             otherNavItems.forEach(item => {

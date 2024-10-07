@@ -88,6 +88,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (project.collaborators && project.collaborators.length > 0) {
                 const collaboratorsP = document.createElement('p');
                 collaboratorsP.innerHTML = `Collaborators: ${project.collaborators.map(colab => `<a href="#">${colab}</a>`).join(', ')}`;
+                collaboratorsP.classList.add("colab")
                 textDiv.appendChild(collaboratorsP);
             }
     

@@ -370,6 +370,7 @@ footer #final {
     font-size: 1vw;
   }
 
+  .colab{display: none;}
 
   .text .title{
     font-size: 1.2em;

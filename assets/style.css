@@ -116,7 +116,7 @@ nav a:hover {
   flex-direction: column;
   color: #FFFFFF;
   padding-top: 4em;
-  font-size: 1.5vw;
+  font-size: 1.4vw;
   font-family: Helvetica;
 }
 
@@ -318,4 +318,85 @@ footer #final {
   justify-content: center;
   margin-bottom: 2em;
   font-size: x-large;
+}
+
+
+
+/* General styling for mobile */
+@media (max-width: 768px) {
+  /* Adjust navbar for mobile */
+  nav {
+    display: none;
+  }
+
+  /* Main content adjustments */
+  .first {
+    padding-left: 5vw; /* Reduce padding on smaller screens */
+    padding-top: 5vh;
+  }
+
+  .first h1 {
+    font-size: 2em; /* Smaller font for mobile */
+    margin-top: 1em;
+  }
+
+  .p-box {
+    width: 80vw !important; /* Increase text area width */
+  }
+
+  .p-box p{
+    font-size: 2vw;
+  }
+
+  /* About section adjustments */
+  #about {
+    font-size: 3.5vw; /* Adjust font size for readability */
+    padding: 1em;
+  }
+
+  /* Footer styles for mobile */
+  footer {
+    display: none;
+  }
+
+  footer .socials, footer .extras {
+    padding-left: 1em;
+    justify-content: flex-start;
+  }
+  
+  /* Projects section for mobile */
+  #projects {
+    padding: 1em;
+    font-size: 1vw;
+  }
+
+
+  .text .title{
+    font-size: 1.25em;
+    font-weight: bold;
+  }
+  .project {
+    flex-direction: column; /* Stack projects vertically */
+  }
+
+  .project .technologies{
+    display: none;
+  }
+
+  .project .image {
+    display: none; /* Remove image on mobile */
+  }
+
+  .project .text {
+    width: 100%; /* Full width for text */
+  }
+  
+  /* Hide unnecessary divs for mobile experience */
+  #about .text, .p-box {
+    font-size: 0.8em;
+  }
+
+  .node-pool{
+    height: 32vh;
+  }
 }

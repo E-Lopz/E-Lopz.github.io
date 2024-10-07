@@ -372,11 +372,12 @@ footer #final {
 
 
   .text .title{
-    font-size: 1.25em;
+    font-size: 1.2em;
     font-weight: bold;
   }
   .project {
     flex-direction: column; /* Stack projects vertically */
+    margin: 1.5em;
   }
 
   .project .technologies{

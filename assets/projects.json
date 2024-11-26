@@ -13,7 +13,7 @@
         "title": "Health Biostatistics Analysis",
         "technologies": ["R", "Biostatistics", "Data Mining", "Model Selection"],
         "year": "2023",
-        "link": "https://example.com/maternal-health-analysis",
+        "link": "assets/STT3510_Rapport.pdf",
         "link-text": "{ Project Paper }",
         "description": "Conducted a comprehensive analysis of maternal factors and their relationship to low-birth-weight infant outcomes. This project involved the evaluation of predictive models, hypothesis testing, and model selection techniques to derive meaningful conclusions with statistical and practical relevance.",
         "collaborators": ["Jeremy Qin", "Edouard Cayouette"],

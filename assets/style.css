@@ -321,6 +321,45 @@ footer #final {
 }
 
 
+/* Styling for project page */
+
+
+.project-head{
+  margin: 2em;
+}
+
+.project-head .title{
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-family: 'futura-black', Times, serif;
+
+}
+
+.project-head a{
+  text-decoration: none;
+  color: black;
+}
+.project-head a:hover{
+  text-decoration: underline;
+}
+
+.project-head .content{
+  display: flex;
+  justify-content: center;
+}
+
+.project-image {
+  max-width: 40%; /* Adjust to your desired percentage */
+  height: auto;   /* Maintains aspect ratio */
+  display: block; /* Centering image if needed */
+  margin: 0 auto;
+}
+
+.container p{
+  font-family: helvetica;
+}
+
+
 
 /* General styling for mobile */
 @media (max-width: 768px) {

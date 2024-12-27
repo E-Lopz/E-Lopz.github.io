@@ -13,20 +13,10 @@
         "title": "Health Biostatistics Analysis",
         "technologies": ["R", "Biostatistics", "Data Mining", "Model Selection"],
         "year": "2023",
-        "link": "assets/STT3510_Rapport.pdf",
+        "link": "assets/STT3795_Projet.pdf",
         "link-text": "{ Project Paper }",
         "description": "Conducted a comprehensive analysis of maternal factors and their relationship to low-birth-weight infant outcomes. This project involved the evaluation of predictive models, hypothesis testing, and model selection techniques to derive meaningful conclusions with statistical and practical relevance.",
         "collaborators": ["Jeremy Qin", "Edouard Cayouette"],
-        "image": ""
-    },
-    {
-        "title": "Staff Scheduling Optimization",
-        "technologies": ["Python", "Google OR-Tools"],
-        "year": "2024",
-        "link": "",
-        "link-text": "in progress",
-        "description": "Created a scheduling solution for optimizing staff assignments in a local store, taking into account shift constraints and fairness. Implemented the solution using Google OR-Tools for constraint programming.",
-        "collaborators": [],
         "image": ""
     },
     {
@@ -36,6 +26,16 @@
         "link": "https://e-lopz.github.io/",
         "link-text": "{ This website }",
         "description": "Designed and developed a fully responsive website featuring a fixed and sticky navigation bar, improving user experience by ensuring seamless scrolling while maintaining visibility of key navigational elements. I enjoy building websites for fun and also take on freelance projects when time allows.",
+        "collaborators": [],
+        "image": ""
+    },
+    {
+        "title": "LuxAI3 Reinforcement Learning Agent",
+        "technologies": ["Python", "PPO", "Self-Play"],
+        "year": "2024",
+        "link": "lux.html",
+        "link-text": "{ Project Page }",
+        "description": "Developed a reinforcement learning agent for the Lux AI Challenge Season 3. Leveraged PPO optimization, self-play, and simplified feature spaces to train the agent effectively. Future plans include scaling to multiple units, augmenting features, and implementing action swapping for enhanced strategy.",
         "collaborators": [],
         "image": ""
     }

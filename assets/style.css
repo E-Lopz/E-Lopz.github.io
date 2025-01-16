@@ -223,9 +223,32 @@ nav a:hover {
   font-family: 'Times New Roman', Times, serif;
 }
 
+/* Projects section */
+#experience {
+  width: 100%;
+  background-color: rgb(251,251,241);
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-family: 'Peclet Regular';
+}
+
+#experience h1{
+  color: #120caa;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
 .project {
   height: 40vh;
   display: flex;
+}
+
+.job{
+  height: 10vh;
 }
 
 .project .image {
@@ -405,6 +428,12 @@ footer #final {
   
   /* Projects section for mobile */
   #projects {
+    padding: 1em;
+    font-size: 1vw;
+  }
+
+  /* Projects section for mobile */
+  #experience {
     padding: 1em;
     font-size: 1vw;
   }

@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const contactSection = document.getElementById('contact');
     const otherNavItems = document.querySelectorAll('nav a, nav span'); // Get all navbar items
     const projectsSection = document.getElementById('projects')
+    const experienceSection = document.getElementById('experience')
     const navbar = document.querySelector('nav'); // Select the navbar
 
     let isAboutVisible = false; // Track if the About section is visible
@@ -143,6 +144,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             });
             projectsSection.classList.add('hidden')
+            experienceSection.classList.add('hidden')
 
             isAboutVisible = true;
         } else {
@@ -168,6 +170,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             });
             projectsSection.classList.remove('hidden')
+            expeienceSection.classList.remove('hidden')
 
             isAboutVisible = false;
         }

@@ -170,7 +170,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             });
             projectsSection.classList.remove('hidden')
-            expeienceSection.classList.remove('hidden')
+            experienceSection.classList.remove('hidden')
 
             isAboutVisible = false;
         }

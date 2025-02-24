@@ -372,7 +372,7 @@ footer #final {
 }
 
 .project-image {
-  max-width: 40%; /* Adjust to your desired percentage */
+  max-width: 50%; /* Adjust to your desired percentage */
   height: auto;   /* Maintains aspect ratio */
   display: block; /* Centering image if needed */
   margin: 0 auto;

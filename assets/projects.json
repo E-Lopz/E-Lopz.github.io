@@ -38,5 +38,15 @@
         "description": "Developed a reinforcement learning agent for the Lux AI Challenge Season 3. Leveraged PPO optimization, self-play, and simplified feature spaces to train the agent effectively. Future plans include scaling to multiple units, augmenting features, and implementing action swapping for enhanced strategy.",
         "collaborators": [],
         "image": ""
+    },
+    {
+        "title": "NightOwl Studios - Club Management Simulator",
+        "technologies": ["Unreal Engine", "C++","game design"],
+        "year": "2025",
+        "link": "nightOwl.html",
+        "link-text": "{ Project Page }",
+        "description": "A nightclub simulation and management game where players can design, manage, and grow their own venue. Built using Unreal Engine, the project is in early development, focusing on core mechanics and immersive environments. The in-game music is composed by my collaborator, who is also an artist.",
+        "collaborators": ["Ernest Szostak"],
+        "image": ""
     }
 ]

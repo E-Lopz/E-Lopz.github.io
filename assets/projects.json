@@ -23,7 +23,7 @@
         "title": "Website Development",
         "technologies": ["HTML", "CSS", "JavaScript", "React"],
         "year": "2024",
-        "link": "https://e-lopz.github.io/",
+        "link": "https://hastamorir.com/",
         "link-text": "{ This website }",
         "description": "Designed and developed a fully responsive website featuring a fixed and sticky navigation bar, improving user experience by ensuring seamless scrolling while maintaining visibility of key navigational elements. I enjoy building websites for fun and also take on freelance projects when time allows.",
         "collaborators": [],
@@ -40,7 +40,7 @@
         "image": ""
     },
     {
-        "title": "NightOwl Studios - Club Management Simulator",
+        "title": "NightOwl Studios",
         "technologies": ["Unreal Engine", "C++","game design"],
         "year": "2025",
         "link": "nightOwl.html",

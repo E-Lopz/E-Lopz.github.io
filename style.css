@@ -1,0 +1,149 @@
+/* Base Reset & Layout */
+body {
+  margin: 0;
+  font-family: "Georgia", serif;
+  line-height: 1.6;
+  background-color: #fafafa;
+  color: #222;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Navigation Container */
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0 1rem;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+/* Name */
+.my-name {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Nav links */
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #1d4ed8;
+  font-size: 1rem;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Socials */
+.socials {
+  display: flex;
+  gap: 1rem;
+}
+
+.socials a {
+  color: #333;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.socials a:hover {
+  color: #1d4ed8;
+}
+
+#experience a{
+  text-decoration: none;
+  color: #1d4ed8;
+  font-size: 1rem;
+}
+
+#experience a:hover{
+  text-decoration: underline;
+}
+/* Hamburger icon (mobile only) */
+.hamburger {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Hero title */
+.hero-title {
+  text-align: center;
+  margin: 3rem 0 2rem;
+}
+
+.hero-title h1 {
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+/* Sections */
+section {
+  margin-bottom: 2.5rem;
+}
+
+h2 {
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
+  font-size: 1.4rem;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 3rem;
+  border-top: 1px solid #ccc;
+  padding: 1rem 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    padding: 1rem 0;
+    border-top: 1px solid #ddd;
+    background-color: #fafafa;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .top-nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .top-nav > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
